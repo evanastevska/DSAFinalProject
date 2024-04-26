@@ -72,7 +72,7 @@ def main():
     #built-in sort method to sort the list for comparison
     list.sort(key=lambda x: x.movie_name)
     print("\nFirst 15 records sorted by built-in sort method:\n")
-    for i in range(min(25, len(list))):
+    for i in range(min(15, len(list))):
         print(f"{i}) Actor-Movie Data:\n\tMovie: {list[i].movie_uri}, {list[i].movie_name}\n"
               f"\tActor: {list[i].actor_uri}, {list[i].actor_name}\n")
 
