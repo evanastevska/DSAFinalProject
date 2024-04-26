@@ -49,6 +49,7 @@ def merge_sort(names, start, end):
 
 def main():
 
+    #template from https://bridgesuncc.github.io/tutorials/Data_WikiDataActor.html
     bridges = Bridges(9, "enastevska", "690575246699")
 
     bridges.set_title ("Accessing Wikidata Movie/Actor Data")
